@@ -180,6 +180,7 @@ nav a:hover {
 }
 [href="#top"] {
   visibility: hidden;
+  display: none;
 }
 h2 {
   text-align: center;
