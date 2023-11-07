@@ -178,6 +178,9 @@ nav a:hover {
   color: #007d7b;
   text-decoration: underline;
 }
+[href="#top"] {
+  visibility: hidden;
+}
 h2 {
   text-align: center;
   font-size: 2em;
