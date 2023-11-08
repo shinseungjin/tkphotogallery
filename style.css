@@ -151,6 +151,8 @@ h1 {
   position: relative;
   width: 100%;
   margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 nav {
   background-color: #000000;
@@ -334,6 +336,8 @@ footer {
     text-align: left;
     padding-left: 12px;
     font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   nav {
     height: 70px;
