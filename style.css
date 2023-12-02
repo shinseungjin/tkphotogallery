@@ -159,6 +159,10 @@ nav {
   text-align: center;
   padding: 12px;
 }
+nav h2 {
+  visibility: hidden;
+  height: 1px;
+}
 nav ul {
   display: flex;
   width: 100%;
@@ -362,7 +366,7 @@ footer {
   .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 6 (1fr);
+    grid-template-rows: 6fr;
     gap: 10px;
     margin: auto;
     justify-content: center;
@@ -386,16 +390,16 @@ footer {
   .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 4 (1fr);
+    grid-template-rows: 4fr;
     gap: 10px;
-    margin: auto;
+    margin: 0 auto;
     justify-content: center;
   }
-}
-img {
-  width: 100%;
-}
-.gallery form {
-  width: 100%;
-  margin: auto;
+  img {
+    width: 100%;
+  }
+  .gallery form {
+    width: 100%;
+    margin: auto;
+  }
 }
